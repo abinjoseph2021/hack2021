@@ -1,0 +1,23 @@
+h2{
+    color: rgb(78, 78, 155);
+    font-size: 35px;
+    margin-top:20%;
+    margin-left:45%;
+
+}
+.click{
+    margin-left:43%;
+    margin-top:-1%
+}
+button{ 
+    margin-left:10px
+}
+
+.itemCompleted{
+    color: purple;
+    text-decoration: line-through;
+}
+.itemInCompleted{
+    color: green;
+    text-decoration: none;
+}

@@ -1,0 +1,31 @@
+<div style=" margin: auto; width: 50%;">
+   
+    <table class="table table-info shadow p-2.5 mb-4 rounded" id="excel-table">
+      <tr>
+        <th>Id</th>
+        <th>Villain</th>
+        <th>Actor</th>
+        <th>Movie</th>
+        <th>Director</th>
+        <th>Year</th>
+
+      </tr>
+      <tr *ngFor="let item of userList">
+        <td>{{item.id}}</td>
+        <td>{{item.Villain}}</td>
+        <td>{{item.Actor}}</td>
+        <td>{{item.Movie}}</td>
+        <td>{{item.Director}}</td>
+        <td>{{item.Year}}</td>
+
+      </tr>
+    </table>
+
+    <div>
+        <p>Click below to download <i class="fas fa-download"></i></p>
+        <button class="btn btn-success shadow p-2.5 mb-4 rounded" (click)="excelexport()"><i class="fas fa-file-excel"></i> .xlsx</button>
+
+        <button class="btn btn-danger shadow p-2.5 mb-4 rounded" ><i class="fas fa-file-pdf pdfico"
+></i> .pdf</button>
+    </div>
+  </div>

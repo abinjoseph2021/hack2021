@@ -1,0 +1,33 @@
+<!-- <h2>Pop Up</h2>
+<br>
+<div class="click">
+  <button class="btn btn-outline-info" (click)="openDialog()">
+    Table
+  </button>
+  <button class="btn btn-outline-info" (click)="openDialog2()">
+    Pie Chart
+  </button>
+</div> -->
+
+
+<app-export></app-export>
+
+<div>
+  <button  
+  printSectionId="mytodosItemsId" 
+  printTitle="My Angular Print Media" 
+  ngxPrint>Print</button>
+  <div id="mytodosItemsId">
+    <h4 >My todos</h4>
+    <div >
+      <ul>
+        <li *ngFor="let t of mytodos">
+          <span [ngClass]="[t.isCompleted? 'itemCompleted':'itemInCompleted']">
+		  {{t.item}}
+		  </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
