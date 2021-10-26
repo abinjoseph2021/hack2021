@@ -75,13 +75,8 @@ export var productSalesMulti = [
         "value": 144
       }
     ]
-  }, {
-    "name": "monitor",
-    "series": [
-      {
-        "name": "January",
-        "value": 144
-      }, {
+  },
+  {
         "name": "February",
         "value": 250
       }, {
