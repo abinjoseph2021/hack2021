@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { MatDialog } from '@angular/material/dialog';
 import { TablePopupComponent } from './table-popup/table-popup.component';
 import { PiechartPopupComponent } from './piechart-popup/piechart-popup.component';
 
